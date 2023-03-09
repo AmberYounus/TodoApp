@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -149,3 +150,156 @@ background-color: rgb(72, 68, 68);
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </html>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=PT+Serif&family=Raleway:wght@200&display=swap');
+      </style>    
+    <style>
+    *{
+        box-sizing: border-box;
+        font-family: 'PT Serif', serif;
+/* font-family: 'Raleway', sans-serif; */
+    }
+    .container{
+        max-width: 1600px;
+        background-color: rgb(46, 196, 241);
+    }
+    .Edit{
+            background-color: #4CAF50; /* Green */
+            color: white;
+            margin-left:40px;
+        padding-right: 28px;
+        padding-left:28px ;
+        border-radius: 10px;
+            transition-duration: 0.4s;
+            /* margin-right: 86px; */
+        }
+       .Edit:hover {
+            background-color: #4CAF50; /* Green */
+            color: white;
+        }
+        .Delete:hover {
+            background-color: #ed3709; /* Green */
+            color: white;
+        }
+        .Completed:hover {
+            background-color: #555555; /* Green */
+            color: white;
+        }
+        .Delete{
+            margin-left:40px;
+        padding-right: 27px;
+        padding-left:27px ;
+        border-radius: 10px;
+            transition-duration: 0.4s;
+            background-color: #ed3709; /* Green */
+            color: white;
+        
+        }
+.btn {
+  padding: 0px;
+  width: 25%;
+  background: #d9d9d9;
+  color: #555;
+  float:right;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 0;
+}
+
+.btn:hover {
+  background-color: #bbb;
+}
+
+        /* input {
+  margin: 0;
+  border: none;
+  border-radius: 0;
+  width: 75%;
+  padding: 10px;
+  float: left;
+  font-size: 16px;
+} */
+
+       .content{
+        float: left;
+        font-size: 19px;
+        }
+        .Completed{
+            margin-left:20px;
+        padding-right: 27px;
+        padding-left:27px ;
+        border-radius: 10px;
+        transition-duration: 0.4s;
+        background-color: #555555; /* Green */
+        color: white;
+        
+        }
+        #todo-form{
+background-color: rgb(72, 68, 68);
+            width: 100%;
+  border: 5px solid rgb(4, 117, 4);
+  padding: 10px;
+  margin: 1px;
+
+        }
+
+        #todo-tasks{
+            width: 100%;
+            background-image: linear-gradient(to right, rgba(125, 106, 106, 0), rgb(2, 94, 169));
+  border: 5px solid rgb(61, 59, 59);
+  padding: 50px;
+  margin: 5px;
+        }
+        #todo-tasks input{
+            border-radius: 20px;
+            padding-left: 210px;
+            margin-left: 40px;
+        }
+        
+        .actions{
+            padding-bottom: 20px;
+        }
+        .todo{
+            padding-right: 100px;
+        }
+        #todo-input{
+         
+        }
+        form input{
+            /* padding-top: 130px; */
+        border-radius: 10px;
+        }
+        
+    </style>
+    <h1 class="bg-dark text-white text-center">Create your Todo-List</h1>    
+    <div class="container py-2 mt-5 w-75">
+
+<form action="" id="todo-form" class=" ">
+    <input type="text"  id="todo-input"  placeholder="Enter a task" size="80" style="font-size: 18px;">
+    <input type="submit" id="todo-submit" class="btn btn-outline-primary "  value="Add">
+<br>
+</form>
+    <div id="todo-tasks" class="form-control jumbotron jumbotron-fluid" >
+    </div>
+</div>
+
+</body>
+<script src="app.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</html>
+>>>>>>> 4ed57176235c19c08cdda3bf14ad941ddaa747fc
